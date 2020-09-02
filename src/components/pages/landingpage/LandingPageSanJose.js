@@ -8,13 +8,13 @@ const LandingPageSanJose = () => {
         <div className='landing-header__image'></div>
       </div>
       <div className='landing-actions'>
-        <Link className='link' to={'/sanjose/drinks'}>
+        <Link className='link' to={'/drinks'}>
           <button className='button-options'>Drinks</button>
         </Link>
-        <Link className='link' to={'/sanjose/lunch'}>
+        <Link className='link' to={'/lunch'}>
           <button className='button-options'>Lunch</button>
         </Link>
-        <Link className='link' to={'/sanjose/dinner'}>
+        <Link className='link' to={'/dinner'}>
           <button className='button-options'>Dinner</button>
         </Link>
       </div>
