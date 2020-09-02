@@ -1,0 +1,60 @@
+.navbar {
+  position: sticky;
+  top: 0;
+
+  color: white;
+  width: 100%;
+  font-family: 'Lato', sans-serif !important;
+
+  &-container {
+    background: rgb(223, 5, 5);
+    // height: 50px;
+    width: 100%;
+    // padding-left: 25px;
+    border-bottom: 1px solid rgb(77, 49, 49);
+    box-shadow: 0 4px 7px 0 rgba(#666, 0.3);
+    z-index: 50;
+
+    &__left {
+      padding-left: 10px;
+    }
+
+    &__right {
+      font-size: 25px;
+      text-align: center;
+      background: rgb(223, 5, 5);
+      width: 50px;
+      float: right;
+      z-index: 100;
+    }
+  }
+
+  @include respond(xs-phone) {
+  }
+}
+
+.navbar-container__left ul {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  list-style: none;
+  justify-content: space-around;
+
+  & li {
+    margin-right: 10px;
+    // background: yellow;
+    padding: 5px;
+    font-size: 14px;
+  }
+}
+
+// The home button in the navbar
+.home-button {
+  color: white;
+}
+
+.active {
+  font-weight: bold;
+  color: black;
+  transform: all 0.5 ease;
+}

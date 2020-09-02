@@ -1,0 +1,35 @@
+.container {
+  margin: 0 auto;
+  max-width: 450px;
+}
+
+// Mostly for mobile for the container to be small
+.container-sm {
+  padding: 0 1rem;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.u-margin-bottom-sm {
+  margin-bottom: 10px;
+}
+
+.u-margin-bottom-md {
+  margin-bottom: 15px;
+}
+
+.u-margin-bottom-lg {
+  margin-bottom: 20px;
+}
+
+.u-text-bold {
+  font-weight: bold;
+}
+
+.u-margin-top-xl {
+  margin-top: 25px;
+}
+
+.u-margin-top-xxl {
+  margin-top: 50px;
+}

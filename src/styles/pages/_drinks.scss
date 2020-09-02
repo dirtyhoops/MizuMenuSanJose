@@ -1,0 +1,256 @@
+.cocktails {
+  &-wrapper {
+    width: 100%;
+  }
+
+  &-box {
+    padding: 25px 10px;
+    &-header {
+      height: 65px;
+      text-align: center;
+      color: rgb(241, 34, 34);
+    }
+
+    &-container {
+      display: flex;
+      justify-content: space-between;
+
+      &__left {
+        flex: 0 0 49%;
+      }
+
+      &__right {
+        flex: 0 0 49%;
+      }
+
+      & ul {
+        & li {
+          display: flex;
+          flex-wrap: wrap;
+          padding: 5px;
+        }
+      }
+    }
+  }
+
+  &-text {
+    &-name {
+      flex: 0 0 85%;
+      text-transform: capitalize;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    &-price {
+      flex: 0 0 15%;
+      text-align: right;
+      font-size: 12px;
+      font-weight: 300;
+    }
+
+    &-description {
+      flex: 0 0 85%;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 1;
+      margin-top: -2px;
+    }
+  }
+}
+
+.sakebeer {
+  &-wrapper {
+    width: 100%;
+  }
+
+  &-box {
+    padding: 25px 80px;
+    &-header {
+      height: 65px;
+      text-align: center;
+      color: rgb(241, 34, 34);
+    }
+
+    &-container {
+      & ul {
+        & li {
+          display: flex;
+          flex-wrap: wrap;
+          padding: 5px 10px;
+          line-height: 13px;
+        }
+      }
+    }
+  }
+
+  &-text {
+    &-type {
+      flex: 0 0 85%;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: 600;
+      margin: 15px 0;
+    }
+
+    &-name {
+      flex: 0 0 85%;
+      text-transform: capitalize;
+      font-size: 13px;
+      padding-left: 15px;
+      font-weight: 600;
+      line-height: 1;
+    }
+
+    &-span {
+      font-weight: 300;
+      margin-left: 4px;
+    }
+
+    &-price {
+      flex: 0 0 15%;
+      text-align: right;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 0.8;
+    }
+  }
+}
+
+// margin for the price of sake
+.price-top-margin {
+  margin-top: 15px;
+}
+
+.li-bottom-margin {
+  margin-bottom: -5px;
+}
+
+.wines {
+  &-wrapper {
+    width: 100%;
+  }
+
+  &-box {
+    padding: 25px 10px;
+    &-header {
+      height: 65px;
+      text-align: center;
+      color: rgb(241, 34, 34);
+    }
+
+    &-container {
+      & ul {
+        & li {
+          display: flex;
+          flex-wrap: wrap;
+          // line-height: 13px;
+        }
+      }
+
+      &-items {
+        padding: 5px 15px;
+      }
+    }
+  }
+
+  &-text {
+    &-type {
+      flex: 0 0 85%;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    &-name {
+      flex: 0 0 70%;
+      text-transform: capitalize;
+      font-size: 13px;
+      padding-left: 15px;
+      font-weight: 600;
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+
+    &-span {
+      font-weight: 300;
+      margin-left: 4px;
+    }
+
+    &-price-glass {
+      flex: 0 0 15%;
+      text-align: right;
+      font-size: 12px;
+      font-weight: 300;
+      // line-height: 0.8;
+    }
+
+    &-price-bottle {
+      flex: 0 0 15%;
+      text-align: right;
+      font-size: 12px;
+      font-weight: 300;
+      // line-height: 0.8;
+    }
+
+    &-bigger {
+      font-size: 20px !important;
+    }
+  }
+}
+
+.spirits {
+  &-wrapper {
+    width: 100%;
+  }
+
+  &-box {
+    padding: 25px 80px;
+    &-header {
+      height: 65px;
+      text-align: center;
+      color: rgb(241, 34, 34);
+    }
+
+    &-container {
+      & ul {
+        & li {
+          display: flex;
+          flex-wrap: wrap;
+          // line-height: 13px;
+        }
+      }
+
+      &-items {
+        padding: 5px 15px;
+      }
+    }
+  }
+
+  &-text {
+    &-type {
+      flex: 0 0 85%;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 7px;
+    }
+
+    &-name {
+      flex: 0 0 85%;
+      text-transform: capitalize;
+      font-size: 13px;
+      padding-left: 15px;
+      font-weight: 600;
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+
+    &-price {
+      flex: 0 0 15%;
+      text-align: right;
+      font-size: 12px;
+      font-weight: 300;
+      // line-height: 0.8;
+    }
+  }
+}

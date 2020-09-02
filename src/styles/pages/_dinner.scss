@@ -1,0 +1,270 @@
+.dinner-wrapper {
+  width: 100%;
+}
+
+.dinner {
+  &-box {
+    padding: 25px 10px;
+    &-header {
+      height: 65px;
+      text-align: center;
+      color: rgb(241, 34, 34);
+    }
+
+    &-container {
+      display: flex;
+
+      &__images {
+        flex: 0 0 35%;
+
+        &__box {
+          margin-bottom: 10px;
+          & img {
+            width: 100%;
+          }
+        }
+      }
+
+      &__items {
+        flex: 0 0 65%;
+        padding: 0 5px;
+      }
+
+      &__bigpicture {
+        width: 100%;
+        text-align: center;
+
+        & img {
+          width: 90%;
+        }
+      }
+    }
+  }
+}
+
+.dinner-box-container__items li,
+.sushisashimi-box-container ul li,
+.makiroll-box-container ul li {
+  display: flex;
+  flex-wrap: wrap;
+  // padding: 5px;
+  margin-bottom: 5px;
+
+  // Maybe change this later. smaller font is better
+  font-family: 'Oswald', sans-serif;
+}
+
+.list-name {
+  flex: 0 0 65%;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.list-price {
+  flex: 0 0 35%;
+  text-align: right;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.list-description {
+  flex: 0 0 85%;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1;
+  margin-top: -2px;
+}
+
+.blackwhite {
+  background: black;
+  color: white;
+}
+
+.whiteblack {
+  background: white;
+  color: black;
+}
+
+.sushisashimi-box-container {
+  padding: 0 10px;
+
+  & li {
+    display: flex;
+  }
+}
+
+.sushisashimi-list {
+  &-name {
+    flex: 0 0 40%;
+    text-transform: capitalize;
+    font-size: 13px;
+    line-height: 1.2;
+  }
+
+  &-header {
+    flex: 0 0 30%;
+    font-size: 13px;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  &-sushi {
+    flex: 0 0 30%;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  &-sashimi {
+    flex: 0 0 30%;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.2;
+  }
+}
+
+.makiroll-box-container {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+
+  & ul {
+    flex: 0 0 46%;
+  }
+
+  & li {
+    display: flex;
+  }
+}
+
+.makiroll-list {
+  &-name {
+    flex: 0 0 80%;
+    text-transform: capitalize;
+    font-size: 13px;
+    line-height: 1.2;
+  }
+
+  &-price {
+    flex: 0 0 20%;
+    font-size: 13px;
+    text-align: center;
+    line-height: 1.2;
+  }
+}
+
+.icon-hotpepper {
+  color: red;
+  font-size: 10px;
+  margin-left: 3px;
+}
+
+.icon-leaf {
+  color: green;
+  font-size: 10px;
+  margin-left: 3px;
+}
+
+.icon-gf {
+  font-size: 10px;
+  text-transform: lowercase;
+}
+
+.sides-list {
+  &-name {
+    flex: 0 0 70%;
+    text-transform: capitalize;
+    font-size: 13px;
+    line-height: 1.2;
+  }
+
+  &-price {
+    flex: 0 0 30%;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
+
+// Just cancels the text transform in bento box sushi/sashimi
+.no-text-transform {
+  text-transform: none;
+}
+
+// For bento
+.bento-box {
+  padding: 25px 10px;
+  font-family: 'Oswald', sans-serif;
+  &-header {
+    height: 65px;
+    text-align: center;
+    color: rgb(241, 34, 34);
+  }
+
+  &-subheader {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  &-container {
+    display: flex;
+    // margin-bottom: 25px;
+
+    &__left {
+      flex: 0 0 50%;
+      text-align: center;
+    }
+
+    &__right {
+      flex: 0 0 50%;
+      text-align: center;
+    }
+
+    & ul {
+      list-style: none;
+
+      & li {
+        margin-bottom: 9px;
+        font-size: 13px;
+        text-transform: capitalize;
+        line-height: 1.4;
+      }
+    }
+  }
+
+  // just the footer saying no double
+  &-asterisk {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  // Image
+  &-image {
+    width: 95%;
+    margin: 0 auto;
+
+    & img {
+      width: 100%;
+    }
+  }
+
+  // For kids menu <li> flex
+  &-li-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+
+    & p {
+      line-height: 1;
+    }
+  }
+
+  &-kids-type {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+}

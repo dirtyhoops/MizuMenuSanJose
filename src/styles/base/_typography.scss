@@ -1,0 +1,20 @@
+// This is the default font-family for the whole body unless it's specified
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: $default-font-size;
+  line-height: 1.7;
+  color: $color-black;
+}
+
+.heading-secondary {
+  font-weight: bold;
+  text-transform: capitalize;
+  font-family: 'Lobster', cursive;
+  font-size: 26px;
+}
+
+// For links inside <Link>
+.link {
+  text-decoration: none;
+}

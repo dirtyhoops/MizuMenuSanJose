@@ -1,0 +1,104 @@
+.landing-wrapper {
+  padding: 100px 0;
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-black, 0.7),
+      rgba($color-black, 0.7)
+    ),
+    url('http://mizusbg.com/mtnview/wp-content/uploads/sites/5/2015/01/street-and-patio-view-clouds-2048x1367.jpg');
+
+  background-position: center;
+  background-size: cover;
+
+  &--sanjose {
+    padding: 100px 0;
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-black, 0.7),
+        rgba($color-black, 0.7)
+      ),
+      url('http://mizusbg.com/wp-content/uploads/2015/01/san-jose-night.jpg');
+
+    background-position-x: 70%;
+    background-size: cover;
+
+    @include respond(xs-phone) {
+      padding: 60px 0;
+    }
+  }
+
+  @include respond(xs-phone) {
+    padding: 60px 0;
+  }
+}
+
+.landing-header {
+  width: 100%;
+  // background: yellow;
+
+  &__image {
+    width: 70%;
+    height: 180px;
+
+    background: url('http://mizusbg.com/mtnview/wp-content/uploads/sites/5/2015/01/mizu-logo-inversed.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+  }
+}
+
+.landing-actions {
+  margin: 50px 0 70px;
+}
+
+.button-options {
+  padding: 17px;
+  border-radius: 30px;
+  width: 220px;
+  font-size: 13px;
+  font-family: 'Days One', sans-serif;
+  border-top-right-radius: 0px;
+  display: block;
+  margin-bottom: 15px;
+  border: none;
+  background-color: rgb(223, 5, 5);
+  color: white;
+  margin: 12px auto;
+
+  box-shadow: 0 4px 7px 0 rgba(#666, 0.3);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.landing-hours {
+  display: flex;
+
+  width: 100%;
+  padding: 20px 5px;
+  text-align: center;
+  color: white;
+
+  &-box {
+    flex: 0 0 50%;
+  }
+
+  &-text {
+    &-days {
+      font-weight: 600;
+      text-transform: capitalize;
+      font-size: 16px;
+      font-family: 'Days One', sans-serif;
+    }
+
+    &-hours {
+      font-size: 12px;
+      font-family: 'Days One', sans-serif;
+    }
+  }
+}
