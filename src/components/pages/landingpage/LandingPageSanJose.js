@@ -18,6 +18,18 @@ const LandingPageSanJose = () => {
           <button className='button-options'>Dinner</button>
         </Link>
       </div>
+      <div className='disclaimer'>
+        <p>18% gratuity will be charged for parties of 6 or more</p>
+        <p>
+          Food may contain milk, egg, tree nuts, peanuts, fish, and/or
+          shellfish.
+        </p>
+        <p>
+          Drinking distilled spirits, beer, coolers, wine, and other alcoholic
+          beverages may increase cancer risk, and, during pregnancy can cause
+          birth defects
+        </p>
+      </div>
       <div className='landing-hours'>
         <div className='landing-hours-box'>
           <p className='landing-hours-text-days'>monday - thursday</p>

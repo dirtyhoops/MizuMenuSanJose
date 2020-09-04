@@ -21,6 +21,16 @@ const NavBar = () => {
             </Link>
             <Link
               activeClass='active'
+              to='salads'
+              spy={true}
+              smooth={true}
+              offset={-60}
+              duration={500}
+            >
+              <li>Salads</li>
+            </Link>
+            <Link
+              activeClass='active'
               to='hotappetizers'
               spy={true}
               smooth={true}
@@ -39,16 +49,7 @@ const NavBar = () => {
             >
               <li>Cold Appetizers</li>
             </Link>
-            <Link
-              activeClass='active'
-              to='specialrolls'
-              spy={true}
-              smooth={true}
-              offset={-60}
-              duration={500}
-            >
-              <li>Sushi Rolls</li>
-            </Link>
+
             <Link
               activeClass='active'
               to='sushisashimi'
@@ -58,6 +59,16 @@ const NavBar = () => {
               duration={500}
             >
               <li>Sushi & Sashimi</li>
+            </Link>
+            <Link
+              activeClass='active'
+              to='specialrolls'
+              spy={true}
+              smooth={true}
+              offset={-60}
+              duration={500}
+            >
+              <li>Sushi Rolls</li>
             </Link>
             <Link
               activeClass='active'

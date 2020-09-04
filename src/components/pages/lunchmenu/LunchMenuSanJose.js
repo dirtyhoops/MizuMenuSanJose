@@ -9,13 +9,14 @@ import Bento from '../../layout/MenuItems/Bento';
 import {
   lunchHotAppetizers,
   lunchColdAppetizers,
-  sushiRolls,
   lunchEntrees,
   lunchSushiSashimi,
   lunchSides,
   bento,
   bento1
 } from '../../../datas/lunchItems';
+
+import { sushiRolls } from '../../../datas/dinnerItems';
 
 import {
   lunchColdAppetizersImages,

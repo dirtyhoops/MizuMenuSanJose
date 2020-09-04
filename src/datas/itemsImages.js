@@ -7,6 +7,11 @@ export const hotAppetizersImages = [
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/spicy-popcorn-scallop1.jpg'
 ];
 
+export const saladImages = [
+  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2014/05/mizu-house-salad-1.jpg',
+  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2014/05/spicy-tuna-salad.jpg'
+];
+
 export const coldAppetizersImages = [
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/yellowtail-crudo1.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/cajun-tuna-sashimi.jpg',

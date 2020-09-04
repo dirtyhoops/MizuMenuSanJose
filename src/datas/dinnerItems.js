@@ -1,16 +1,63 @@
+export const dinnerSalad = [
+  {
+    name: 'side salad',
+    price: 5
+  },
+  {
+    name: 'cucumber salad',
+    price: 7
+  },
+  {
+    name: 'seaweed salad (wakame)',
+    price: 10
+  },
+  {
+    name: 'mizu house salad',
+    description:
+      'spring greens, cucumber, tomatoes, carrots, avocado & strawberries served with sesame vinaigrette',
+    additionalDescription: 'add chicken for $4 or salmon for $7',
+    price: 13.5,
+    isGlutenFree: true
+  },
+  {
+    name: 'sashimi salad',
+    description:
+      'spring greens with assorted sashimi & sliced avocado served with yuzu dressing',
+    price: 18.5
+  },
+  {
+    name: 'spicy tuna salad',
+    description:
+      'chopped tuna, avocado, cucumber, tobiko, green onions, sesame seeds & kaiware on a bed of spring greens tossed in a spicy dressing',
+    price: 17
+  }
+];
+
 // DINNER HOT APPETIZERS
 export const dinnerHotAppetizers = [
+  {
+    name: 'shrimp tempura (5pcs)',
+    description:
+      'battered & lightly-fried shrimps served with house tempura sauce',
+    price: 13
+  },
+  {
+    name: 'veggie tempura (6pcs)',
+    description:
+      'battered & lightly-fried veggies served with house tempura sauce',
+    price: 10
+  },
+  {
+    name: 'assorted tempura (9pcs)',
+    description:
+      'battered & lightly-friend mixed veggies and shrimps served with house tempura sauce',
+    price: 15.5
+  },
   {
     name: 'agedashi tofu',
     description:
       'deep-fried tofu topped with bonito flakes, seaweed, minced daikon & green onions and served with house tempura sauce',
     price: 10
-  },
-  {
-    name: 'wagyu tataki',
-    description:
-      'seaweed wagyu beef lightly brushed with garlic puree topped with micro chives & yuzu soy',
-    price: 29
   },
   {
     name: 'almond chicken',
@@ -82,24 +129,6 @@ export const dinnerHotAppetizers = [
       'deep-fried jalapenos stuffed with spicy tuna & cream cheese topped with unagi sauce',
     price: 14,
     isSpicy: true
-  },
-  {
-    name: 'veggie tempura (6pcs)',
-    description:
-      'battered & lightly-fried veggies served with house tempura sauce',
-    price: 10
-  },
-  {
-    name: 'shrimp tempura (5pcs)',
-    description:
-      'battered & lightly-fried shrimps served with house tempura sauce',
-    price: 13
-  },
-  {
-    name: 'assorted tempura (9pcs)',
-    description:
-      'battered & lightly-friend mixed veggies and shrimps served with house tempura sauce',
-    price: 15.5
   }
 ];
 
@@ -156,43 +185,11 @@ export const dinnerSides = [
   {
     name: 'garlic edamame',
     price: 9
-  },
-  {
-    name: 'side salad',
-    price: 5
-  },
-  {
-    name: 'cucumber salad',
-    price: 7
-  },
-  {
-    name: 'seaweed salad (wakame)',
-    price: 10
   }
 ];
 
 // DINNER COLD APPETIZERS
 export const dinnerColdAppetizers = [
-  {
-    name: 'mizu house salad',
-    description:
-      'spring greens, cucumber, tomatoes, carrots, avocado & strawberries served with sesame vinaigrette',
-    additionalDescription: 'add chicken for $4 or salmon for $7',
-    price: 13.5,
-    isGlutenFree: true
-  },
-  {
-    name: 'sashimi salad',
-    description:
-      'spring greens with assorted sashimi & sliced avocado served with yuzu dressing',
-    price: 18.5
-  },
-  {
-    name: 'spicy tuna salad',
-    description:
-      'chopped tuna, avocado, cucumber, tobiko, green onions, sesame seeds & kaiware on a bed of spring greens tossed in a spicy dressing',
-    price: 17
-  },
   {
     name: 'yellowtail tartar',
     description:
@@ -642,17 +639,6 @@ export const dinnerEntrees = [
     price: 28.5
   },
   {
-    name: 'surf & turf',
-    description:
-      '4oz of wagyu steak & lobster tail on top of a bed of potatoes',
-    price: 48
-  },
-  {
-    name: 'wagyu steak',
-    description: '6oz wagyu steak on top of a bed of potatoes',
-    price: 34
-  },
-  {
     name: 'chicken katsu',
     description:
       'panko breaded & deep-fried chicken served with rice, salad & miso soup',
@@ -708,6 +694,53 @@ export const dinnerEntrees = [
     isSpicy: true
   },
   {
+    name: 'house boat',
+    description:
+      'chicken teriyaki, beef teriyaki, gyoza, assorted tempura & california roll',
+    price: '35 per person',
+    addtionalDescription: 'minimum 2 person per order'
+  }
+  // {
+  //   name: 'tempura udon',
+  //   description:
+  //     'udon noodle soup served with fish cake, nori, green onions & assorted tempura',
+  //   price: 17
+  // },
+  // {
+  //   name: 'nabeyaki udon',
+  //   description:
+  //     'udon noodle soup served with chicken, napa cabbage, egg, carrots, green onions, fish cake & shrimp tempura',
+  //   price: 20
+  // },
+  // {
+  //   name: 'kake udon',
+  //   description: 'udon noodle soup served with fish cake, nori & green onions',
+  //   price: 14
+  // },
+  // {
+  //   name: 'pork donburi',
+  //   description: 'pork cutlet & egg',
+  //   price: 19
+  // },
+  // {
+  //   name: 'chicken donburi',
+  //   description: 'broiled chicken & egg',
+  //   price: 19
+  // },
+  // {
+  //   name: 'eel donburi',
+  //   description: 'grilled fresh water eel',
+  //   price: 26
+  // }
+];
+
+export const dinnerUdon = [
+  {
+    name: 'kake udon',
+    description: 'udon noodle soup served with fish cake, nori & green onions',
+    price: 14
+  },
+  {
     name: 'tempura udon',
     description:
       'udon noodle soup served with fish cake, nori, green onions & assorted tempura',
@@ -718,12 +751,10 @@ export const dinnerEntrees = [
     description:
       'udon noodle soup served with chicken, napa cabbage, egg, carrots, green onions, fish cake & shrimp tempura',
     price: 20
-  },
-  {
-    name: 'kake udon',
-    description: 'udon noodle soup served with fish cake, nori & green onions',
-    price: 14
-  },
+  }
+];
+
+export const dinnerDonburi = [
   {
     name: 'pork donburi',
     description: 'pork cutlet & egg',
@@ -738,13 +769,6 @@ export const dinnerEntrees = [
     name: 'eel donburi',
     description: 'grilled fresh water eel',
     price: 26
-  },
-  {
-    name: 'house boat',
-    description:
-      'chicken teriyaki, beef teriyaki, gyoza, assorted tempura & california roll',
-    price: '35 per person',
-    addtionalDescription: 'minimum 2 person per order'
   }
 ];
 
