@@ -2,18 +2,18 @@ import React, { Fragment } from 'react';
 import WineItem from './WineItem';
 import {
   redwine,
-  merlot,
   pinotnoir,
   cabernet,
   riesling,
   pinotgrigio,
   chardonnay,
   sauvignonblanc,
-  plumwine,
   sparklingwine,
-} from '../../../datas/drinkItems';
+  malbec,
+  rose
+} from '../../../datas/drinkItemsSanJose';
 
-const Wines = (props) => {
+const Wines = props => {
   const { bground } = props;
   return (
     <Fragment>
@@ -35,16 +35,18 @@ const Wines = (props) => {
               </li>
             </ul>
           </div>
+          <WineItem items={malbec} header={'malbec'} />
           <WineItem items={redwine} header={'red'} />
-          <WineItem items={merlot} header={'merlot'} />
+          {/* <WineItem items={merlot} header={'merlot'} /> */}
           <WineItem items={pinotnoir} header={'pinot noir'} />
           <WineItem items={cabernet} header={'cabernet'} />
           <WineItem items={riesling} header={'riesling'} />
           <WineItem items={pinotgrigio} header={'pinotgrigio'} />
           <WineItem items={chardonnay} header={'chardonnay'} />
           <WineItem items={sauvignonblanc} header={'sauvignon blanc'} />
-          <WineItem items={plumwine} header={'plum wine'} />
+          {/* <WineItem items={plumwine} header={'plum wine'} /> */}
           <WineItem items={sparklingwine} header={'sparkling wine'} />
+          <WineItem items={rose} header={'rose'} />
         </div>
       </div>
     </Fragment>

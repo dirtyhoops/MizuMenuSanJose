@@ -76,6 +76,15 @@ export const cocktails2 = [
   }
 ];
 
+export const malbec = [
+  {
+    name: 'robert mondavi',
+    location: 'ca',
+    priceGlass: 9,
+    priceBottle: 34
+  }
+];
+
 export const redwine = [
   {
     name: 'josh cellars legacy',
@@ -96,6 +105,12 @@ export const merlot = [
 
 export const pinotnoir = [
   {
+    name: 'pard ucci',
+    location: 'ca',
+    priceGlass: 9,
+    priceBottle: 34
+  },
+  {
     name: 'meiomi',
     location: 'ca',
     priceGlass: 12,
@@ -105,16 +120,10 @@ export const pinotnoir = [
 
 export const cabernet = [
   {
-    name: 'daou',
-    location: 'paso robles, ca',
-    priceGlass: 15,
-    priceBottle: 58
-  },
-  {
-    name: 'hess shirtail',
-    location: 'monterey, ca',
-    priceGlass: 12,
-    priceBottle: 46
+    name: 'josh cellar',
+    location: 'ca',
+    priceGlass: 10,
+    priceBottle: 40
   }
 ];
 
@@ -129,10 +138,10 @@ export const riesling = [
 
 export const pinotgrigio = [
   {
-    name: 'ruffino lumina',
+    name: 'ruffino il ducale',
     location: 'italy',
-    priceGlass: 8,
-    priceBottle: 30
+    priceGlass: 10,
+    priceBottle: 40
   }
 ];
 
@@ -141,32 +150,32 @@ export const chardonnay = [
     name: 'jam cellars butter',
     location: 'napa, ca',
     priceGlass: 12,
-    priceBottle: 46
+    priceBottle: 45
   },
   {
     name: 'rodney strong',
     location: 'sonoma county, ca',
     priceGlass: 11,
-    priceBottle: 40
-  },
-  {
-    name: 'sonoma-cutrer',
-    location: 'windsor, ca',
-    priceGlass: 16,
-    priceBottle: 62
+    priceBottle: 42
   }
 ];
 
 export const sauvignonblanc = [
   {
-    name: 'kim crawford',
-    location: 'new zealand',
-    priceGlass: 12,
-    priceBottle: 45
+    name: 'markham',
+    location: 'napa',
+    priceGlass: 10,
+    priceBottle: 40
   }
 ];
 
-export const plumwine = [
+export const rose = [
+  {
+    name: 'simi',
+    location: 'sonoma county',
+    priceGlass: 12,
+    priceBottle: 45
+  },
   {
     name: 'choya',
     location: 'japan',
@@ -177,15 +186,21 @@ export const plumwine = [
 
 export const sparklingwine = [
   {
-    name: 'zonin prosecco',
-    location: '187ml - italy',
-    priceGlass: 0,
-    priceBottle: 8
+    name: 'gekkeikan zipang',
+    location: 'sparkling sake',
+    priceGlass: 15,
+    priceBottle: 0
   },
   {
-    name: 'mumm napa brut prestige',
-    location: 'napa, ca',
-    priceGlass: 0,
+    name: 'cupcake',
+    location: 'prosecco',
+    priceGlass: 10,
+    priceBottle: 40
+  },
+  {
+    name: 'gloria ferrer blanc denoirs',
+    location: '',
+    priceGlass: 13,
     priceBottle: 50
   }
 ];
