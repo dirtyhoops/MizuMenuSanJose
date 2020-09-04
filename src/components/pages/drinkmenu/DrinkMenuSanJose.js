@@ -4,7 +4,7 @@ import Cocktails from '../../layout/MenuItems/Cocktails';
 import { cocktails, cocktails2 } from '../../../datas/drinkItemsSanJose';
 import SakeBeer from '../../layout/MenuItems/SakeBeer';
 import WinesSanJose from '../../layout/MenuItems/Wines';
-import Spirits from '../../layout/MenuItems/Spirits';
+// import Spirits from '../../layout/MenuItems/Spirits';
 
 const DrinkMenu = () => {
   return (
@@ -18,7 +18,7 @@ const DrinkMenu = () => {
         />
         <WinesSanJose bground={'blackwhite'} />
         <SakeBeer bground={'blackwhite'} />
-        <Spirits bground={'blackwhite'} />
+        {/* <Spirits bground={'blackwhite'} /> */}
       </div>
     </Fragment>
   );

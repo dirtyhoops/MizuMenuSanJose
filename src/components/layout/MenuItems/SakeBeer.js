@@ -78,7 +78,7 @@ const SakeBeer = props => {
               <p className='sakebeer-text-price'>10</p>
             </li>
             <li>
-              <p className='sakebeer-text-name'>echigo stouut</p>
+              <p className='sakebeer-text-name'>echigo stout</p>
               <p className='sakebeer-text-price'>8.5</p>
             </li>
             <li>
