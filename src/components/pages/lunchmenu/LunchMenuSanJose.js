@@ -23,7 +23,7 @@ import {
   sushiRolls,
   dinnerEntrees,
   dinnerSides,
-  dinnerSushiSashimi,
+  // dinnerSushiSashimi,
   dinnerUdon,
   dinnerDonburi,
   dinnerSalad
