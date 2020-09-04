@@ -45,6 +45,12 @@ const LunchMenu = () => {
       <NavBar />
 
       <div className='dinner-wrapper'>
+        <Bento
+          bground={'blackwhite'}
+          wrapper_id={'bento'}
+          bento={bento}
+          bento1={bento1}
+        />
         <Sides bground={'blackwhite'} items={dinnerSides} images={sideImages} />
 
         <MenuItems
@@ -88,12 +94,7 @@ const LunchMenu = () => {
         />
 
         <MakiRolls bground={'whiteblack'} />
-        <Bento
-          bground={'blackwhite'}
-          wrapper_id={'bento'}
-          bento={bento}
-          bento1={bento1}
-        />
+
         <DinnerMenuItem
           bground={'blackwhite'}
           header={'entrees'}

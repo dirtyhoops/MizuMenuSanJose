@@ -46,8 +46,7 @@ export const lunchColdAppetizersImages = [
 export const lunchHotAppetizersImages = [
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/baked-green-mussels1.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/crispy-rice.jpg',
-  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/spicy-popcorn-scallop1.jpg',
-  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/calamari-1.jpg'
+  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/spicy-popcorn-scallop1.jpg'
 ];
 
 export const entreesImages = [

@@ -5,7 +5,9 @@ const Bento = props => {
   return (
     <div className={`bento-box ${bground}`} id={wrapper_id}>
       <div className='bento-box-header'>
-        <p className='heading-secondary u-margin-top-xl'>bento box</p>
+        <p className='heading-secondary u-margin-top-xl'>
+          bento box (lunch only)
+        </p>
       </div>
       <div className='bento-box-subheader'>
         <p>Choose 2 or 3 items from below</p>
@@ -72,7 +74,7 @@ const Bento = props => {
           alt=''
         />
       </div>
-      <div className='bento-box-header u-margin-top-xxl'>
+      {/* <div className='bento-box-header u-margin-top-xxl'>
         <p className='heading-secondary'>kids menu</p>
       </div>
       <div className='bento-box-subheader'>
@@ -106,7 +108,7 @@ const Bento = props => {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
