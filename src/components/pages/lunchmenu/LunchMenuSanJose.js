@@ -5,6 +5,7 @@ import Sides from '../../layout/MenuItems/Sides';
 import NavBar from '../../layout/NavBarSanJose/NavBar';
 import MakiRolls from '../../layout/MenuItems/MakiRolls';
 import Bento from '../../layout/MenuItems/Bento';
+import DinnerMenuItem from '../../layout/MenuItems/DinnerMenuItem';
 
 import {
   lunchHotAppetizers,
@@ -16,7 +17,17 @@ import {
   bento1
 } from '../../../datas/lunchItems';
 
-import { sushiRolls } from '../../../datas/dinnerItems';
+import {
+  dinnerHotAppetizers,
+  dinnerColdAppetizers,
+  sushiRolls,
+  dinnerEntrees,
+  dinnerSides,
+  dinnerSushiSashimi,
+  dinnerUdon,
+  dinnerDonburi,
+  dinnerSalad
+} from '../../../datas/dinnerItems';
 
 import {
   lunchColdAppetizersImages,
@@ -24,7 +35,8 @@ import {
   lunchHotAppetizersImages,
   entreesImages,
   sushiSashimiImages,
-  sideImages
+  sideImages,
+  saladImages
 } from '../../../datas/itemsImages';
 
 const LunchMenu = () => {
@@ -33,12 +45,21 @@ const LunchMenu = () => {
       <NavBar />
 
       <div className='dinner-wrapper'>
-        <Sides bground={'blackwhite'} items={lunchSides} images={sideImages} />
+        <Sides bground={'blackwhite'} items={dinnerSides} images={sideImages} />
+
+        <MenuItems
+          bground={'blackwhite'}
+          header={'salads'}
+          wrapper_id={'salads'}
+          items={dinnerSalad}
+          images={saladImages}
+        />
+
         <MenuItems
           bground={'whiteblack'}
           header={'hot appetizers'}
           wrapper_id={'hotappetizers'}
-          items={lunchHotAppetizers}
+          items={dinnerHotAppetizers}
           images={lunchHotAppetizersImages}
         />
 
@@ -46,7 +67,7 @@ const LunchMenu = () => {
           bground={'blackwhite'}
           header={'cold appetizers'}
           wrapper_id={'coldappetizers'}
-          items={lunchColdAppetizers}
+          items={dinnerColdAppetizers}
           images={lunchColdAppetizersImages}
         />
         <MenuItems
@@ -67,19 +88,28 @@ const LunchMenu = () => {
         />
 
         <MakiRolls bground={'whiteblack'} />
-        <MenuItems
-          bground={'blackwhite'}
-          header={'entrees'}
-          wrapper_id={'entrees'}
-          items={lunchEntrees}
-          images={entreesImages}
-        />
         <Bento
           bground={'blackwhite'}
           wrapper_id={'bento'}
           bento={bento}
           bento1={bento1}
         />
+        <DinnerMenuItem
+          bground={'blackwhite'}
+          header={'entrees'}
+          wrapper_id={'entrees'}
+          items={dinnerEntrees}
+          dinnerUdon={dinnerUdon}
+          dinnerDonburi={dinnerDonburi}
+          images={entreesImages}
+        />
+        {/* <MenuItems
+          bground={'blackwhite'}
+          header={'entrees'}
+          wrapper_id={'entrees'}
+          items={dinnerEntrees}
+          images={entreesImages}
+        /> */}
       </div>
     </Fragment>
   );
