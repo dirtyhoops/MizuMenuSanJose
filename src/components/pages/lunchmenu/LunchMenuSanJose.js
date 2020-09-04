@@ -8,11 +8,11 @@ import Bento from '../../layout/MenuItems/Bento';
 import DinnerMenuItem from '../../layout/MenuItems/DinnerMenuItem';
 
 import {
-  lunchHotAppetizers,
-  lunchColdAppetizers,
-  lunchEntrees,
+  // lunchHotAppetizers,
+  // lunchColdAppetizers,
+  // lunchEntrees,
   lunchSushiSashimi,
-  lunchSides,
+  // lunchSides,
   bento,
   bento1
 } from '../../../datas/lunchItems';
