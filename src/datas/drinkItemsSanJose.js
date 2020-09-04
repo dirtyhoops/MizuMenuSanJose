@@ -1,15 +1,11 @@
 export const cocktails = [
   {
-    name: 'mountain view mule',
+    name: 'mizu mule',
     description:
       'stoli vodka, homemade ginger tea, fresh lime, mint, ginger beer',
     price: 11
   },
-  {
-    name: 'pear tree',
-    description: 'grey goose pear, orgeat, fresh lemon juice',
-    price: 11
-  },
+
   {
     name: 'mango mojito',
     description:
@@ -23,10 +19,22 @@ export const cocktails = [
     price: 12
   },
   {
+    name: 'cucumber cooler',
+    description:
+      'bombay east, cucumber, lime juice, simple syrup, white cranberry, torres, orange liqueur',
+    price: 13
+  },
+  {
     name: 'maui sunset',
     description:
       "myer's light rum, zaya dark rum, fresh pineapple, and orange juice, pineapple garnish",
     price: 12
+  },
+  {
+    name: 'uisuki buck',
+    description:
+      'yamazaki toki whiske, yuzuru liqueur, kumquat, lemon, lemon juice, orange, ginger beer',
+    price: 14
   }
 ];
 
@@ -38,14 +46,15 @@ export const cocktails2 = [
     price: 12
   },
   {
-    name: 'tokyo rickey',
-    description: 'tanqueray gin, fresh lime juice, cucumber, mint',
+    name: 'mandarin cosmo',
+    description:
+      'absolute mandarin vodka, orange juice, orange liqueur, triple sec, cranberry',
     price: 12
   },
   {
-    name: 'mizu delight',
+    name: 'salty dog',
     description:
-      'george dickel whiskey, fresh lime juice, homemade ginger tea, topped with prosecco',
+      'absolut vodka, grapefruit peel, st germain, salt, grapefruit juice',
     price: 12
   },
   {
@@ -58,6 +67,12 @@ export const cocktails2 = [
     description:
       'hibiscus infused titos vodka, elderflower liqueur, fresh cane syrup, fresh lemon juice',
     price: 12
+  },
+  {
+    name: 'mizu margarita',
+    description:
+      'hornitos, cointreau, sweet and sour, lime juice, blue curacao float',
+    price: 13
   }
 ];
 
