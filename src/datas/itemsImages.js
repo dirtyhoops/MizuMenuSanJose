@@ -21,21 +21,21 @@ export const coldAppetizersImages = [
 ];
 
 export const rollsImages = [
-  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/butterfly.jpg',
-  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/yami-yami.jpg',
-  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/rainbow-blossom.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/sakura.jpg',
-  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/albacore-delight-1.jpg',
-  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/red-dragon.jpg',
-  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/sunkissed.jpg',
-  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/cherry-blossom.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/super-godzilla.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/hot-mango1.jpg',
-  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/rainbow.jpg',
-  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/super-spider.jpg',
+  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/cherry-blossom.jpg',
+  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/rainbow-blossom.jpg',
+  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/albacore-delight-1.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/titanic-fire.jpg',
+  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/butterfly.jpg',
+  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/rainbow.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/dragon.jpg',
-  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/mizu-jumbo.jpg'
+  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/red-dragon.jpg',
+  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/mizu-jumbo.jpg',
+  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/sunkissed.jpg',
+  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/super-spider.jpg',
+  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/yami-yami.jpg'
 ];
 
 export const lunchColdAppetizersImages = [
