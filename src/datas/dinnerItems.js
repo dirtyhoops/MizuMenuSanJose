@@ -299,6 +299,13 @@ export const sushiRolls = [
     isGlutenFree: true
   },
   {
+    name: 'rainbow blossom',
+    description:
+      'dungeness crab, avocado, cucumber, wrapped with tuna, salmon topped with deep-fried bay scallops, green onion, tobiko with spicy aoili & unagi sauce',
+    price: 19.5,
+    isSpicy: true
+  },
+  {
     name: 'santana',
     description: 'crab, salmon, & avocado with tobiko',
     price: 11,
@@ -316,31 +323,12 @@ export const sushiRolls = [
     price: 11,
     isGlutenFree: true
   },
-  {
-    name: 'rainbow blossom',
-    description:
-      'dungeness crab, avocado, cucumber, wrapped with tuna, salmon topped with deep-fried bay scallops, green onion, tobiko with spicy aoili & unagi sauce',
-    price: 19.5,
-    isSpicy: true
-  },
+
   {
     name: 'albacore delight',
     description:
       'dungeness crab, avocado, cucumber topped with albacore, sliced red onion, green onion, drizzled with japanese dressing',
     price: 15
-  },
-  {
-    name: 'yellowtail special',
-    description: 'yellowtail, cucumber topped with yellowtail & sliced lemon',
-    price: 16,
-    isGlutenFree: true
-  },
-  {
-    name: 'hurricanne',
-    description:
-      'spicy tuna roll wrapped in soy paper deep-fried & topped with crispy potato noodles, unagi sauce & sriracha',
-    price: 15,
-    isSpicy: true
   },
   {
     name: 'titanic fire',
@@ -350,11 +338,24 @@ export const sushiRolls = [
     isSpicy: true
   },
   {
+    name: 'hurricanne',
+    description:
+      'spicy tuna roll wrapped in soy paper deep-fried & topped with crispy potato noodles, unagi sauce & sriracha',
+    price: 15,
+    isSpicy: true
+  },
+  {
     name: 'butterfly',
     description:
       'spicy yellowtail, cucumber & topped with unagi, soft shell crab, dungeness crab, tobiko, green onion served with spicy aioli & unagi sauce',
     price: 16.5,
     isSpicy: true
+  },
+  {
+    name: 'yellowtail special',
+    description: 'yellowtail, cucumber topped with yellowtail & sliced lemon',
+    price: 16,
+    isGlutenFree: true
   },
   {
     name: 'rainbow',
@@ -369,17 +370,17 @@ export const sushiRolls = [
     price: 17
   },
   {
+    name: 'green dragon',
+    description:
+      'shrimp tempura, cucumber, gobo topped with avocado, unagi sauce & sesame seeds',
+    price: 17.5
+  },
+  {
     name: 'red dragon',
     description:
       'shrimp tempura, cucumber, topped with spicy tuna, tobiko, green onion, unagi sauce, spicy aioli & red onions',
     price: 17,
     isSpicy: true
-  },
-  {
-    name: 'green dragon',
-    description:
-      'shrimp tempura, cucumber, gobo topped with avocado, unagi sauce & sesame seeds',
-    price: 17.5
   },
   {
     name: 'crazy dragon',
@@ -410,17 +411,17 @@ export const sushiRolls = [
     isSpicy: true
   },
   {
-    name: 'super spider',
-    description:
-      'soft shell crab, eel, asparagus, cucumber, topped with spicy tuna, tempura flakes, red tobiko drizzled with spicy aoili & unagi sauce',
-    price: 17.5,
-    isSpicy: true
-  },
-  {
     name: 'alaska',
     description:
       'spicy crab & avocado topped with salmon & spicy aioli baked to perfection drizzled with unagi sauce',
     price: 16.5,
+    isSpicy: true
+  },
+  {
+    name: 'super spider',
+    description:
+      'soft shell crab, eel, asparagus, cucumber, topped with spicy tuna, tempura flakes, red tobiko drizzled with spicy aoili & unagi sauce',
+    price: 17.5,
     isSpicy: true
   },
   {
@@ -430,17 +431,17 @@ export const sushiRolls = [
     price: 16.5
   },
   {
-    name: 'spicy crunch',
-    description:
-      'avocado, spicy crab, eel, cucumber topped with unagi sauce, spicy mayo, wasabi mayo, green onion, tobiko & tempura flakes',
-    price: 17,
-    isSpicy: true
-  },
-  {
     name: 'yami yami',
     description:
       'deep-fried white fish, topped with chopped tuna & salmon mixed in spicy sauce, topped with tobiko, green onion, spicy aioli, wasabi aioli & unagi sauce',
     price: 19,
+    isSpicy: true
+  },
+  {
+    name: 'spicy crunch',
+    description:
+      'avocado, spicy crab, eel, cucumber topped with unagi sauce, spicy mayo, wasabi mayo, green onion, tobiko & tempura flakes',
+    price: 17,
     isSpicy: true
   }
 ];
