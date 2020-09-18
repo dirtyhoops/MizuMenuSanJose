@@ -1,9 +1,9 @@
 export const hotAppetizersImages = [
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/baked-green-mussels1.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/gyoza.jpg',
-  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/wagyu-tataki1.jpg',
-  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/crispy-rice.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/agedashi-tofu-landscape.jpg',
+  // 'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/wagyu-tataki1.jpg',
+  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/crispy-rice.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/spicy-popcorn-scallop1.jpg'
 ];
 
@@ -13,11 +13,11 @@ export const saladImages = [
 ];
 
 export const coldAppetizersImages = [
+  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/yellowtail-tartar.jpg',
+  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/tuna-tartar.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/yellowtail-crudo1.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/cajun-tuna-sashimi.jpg',
-  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/yellowtail-tartar.jpg',
-  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/citrus-seared-salmon-sashimi.jpg',
-  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/tuna-tartar.jpg'
+  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/citrus-seared-salmon-sashimi.jpg'
 ];
 
 export const rollsImages = [
@@ -39,12 +39,18 @@ export const rollsImages = [
 ];
 
 export const lunchColdAppetizersImages = [
+  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/yellowtail-tartar.jpg',
+  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/tuna-tartar.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/yellowtail-crudo1.jpg',
-  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/cajun-tuna-sashimi.jpg'
+  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/cajun-tuna-sashimi.jpg',
+  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/citrus-seared-salmon-sashimi.jpg'
 ];
 
 export const lunchHotAppetizersImages = [
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/baked-green-mussels1.jpg',
+  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/gyoza.jpg',
+  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/agedashi-tofu-landscape.jpg',
+  // 'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/wagyu-tataki1.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/crispy-rice.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/spicy-popcorn-scallop1.jpg'
 ];

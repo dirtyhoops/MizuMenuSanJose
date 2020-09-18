@@ -54,6 +54,17 @@ export const dinnerHotAppetizers = [
     price: 15.5
   },
   {
+    name: 'baked green mussels',
+    description:
+      'lightly-baked green mussels topped with tobiko, green onions, spicy aoili, unagi sauce, and sriracha',
+    price: 10
+  },
+  {
+    name: 'gyoza',
+    description: 'pan-fried pork dumplings with sauce',
+    price: 9
+  },
+  {
     name: 'agedashi tofu',
     description:
       'deep-fried tofu topped with bonito flakes, seaweed, minced daikon & green onions and served with house tempura sauce',
@@ -66,20 +77,30 @@ export const dinnerHotAppetizers = [
     price: 15
   },
   {
+    name: 'crispy rice with spicy tuna',
+    description:
+      'spicy tuna over a layer of crispy rice & spicy aioli topped with jalapenos & sriracha',
+    price: 17,
+    isSpicy: true
+  },
+  {
     name: 'honeymoon special',
     description:
       'chopped spicy scallop, dungeness crab & tobiko seasoned with spicy aoili placed over rice & wrapped with salmon slices. *served flambe',
     price: 16.5
   },
-  {
-    name: 'gyoza',
-    description: 'pan-fried pork dumplings with sauce',
-    price: 9
-  },
+
   {
     name: 'hamachi kama',
     description: 'grilled yellowtail collar served with ponzu sauce',
     price: 14.5
+  },
+  {
+    name: 'spicy popcorn scallops',
+    description:
+      'deep-fried scallops served in a sweet & spicy mayo sauce topped with green onions',
+    price: 15,
+    isSpicy: true
   },
   {
     name: 'croquettes',
@@ -93,26 +114,7 @@ export const dinnerHotAppetizers = [
       'diced octopus breaded & deep-fried to a golden crisp topped with takoyaki sauce, green onion & bonito flakes',
     price: 12
   },
-  {
-    name: 'baked green mussels',
-    description:
-      'lightly-baked green mussels topped with tobiko, green onions, spicy aoili, unagi sauce, and sriracha',
-    price: 10
-  },
-  {
-    name: 'spicy popcorn scallops',
-    description:
-      'deep-fried scallops served in a sweet & spicy mayo sauce topped with green onions',
-    price: 15,
-    isSpicy: true
-  },
-  {
-    name: 'crispy rice with spicy tuna',
-    description:
-      'spicy tuna over a layer of crispy rice & spicy aioli topped with jalapenos & sriracha',
-    price: 17,
-    isSpicy: true
-  },
+
   {
     name: 'calamari',
     description: 'deep-fried seasoned calamari served with cocktail sauce',
@@ -193,13 +195,7 @@ export const dinnerColdAppetizers = [
   {
     name: 'yellowtail tartar',
     description:
-      'diced tuna green onions, cilantro & jalapeno mixed in ponzu sauce topped with wasabi tobiko, quail egg & kaiware served in grape seed oil sauce',
-    price: 17.5
-  },
-  {
-    name: 'tuna tartar',
-    description:
-      'diced tuna, green onions, jalapeno, oshinko & avocados mixed in ponzu sauce topped with black tobiko, quail egg & kaiware served in grape seed oil sauce',
+      'diced yellowtail, green onions, cilantro & jalapeno mixed in ponzu sauce topped with wasabi tobiko, quail egg & kaiware served in grape seed oil sauce',
     price: 17.5
   },
   {
@@ -209,6 +205,24 @@ export const dinnerColdAppetizers = [
     addtionalDescription: 'additional taro chips for $3',
     price: 17.5,
     isSpicy: true
+  },
+  {
+    name: 'tuna tartar',
+    description:
+      'diced tuna, green onions, jalapeno, oshinko & avocados mixed in ponzu sauce topped with black tobiko, quail egg & kaiware served in grape seed oil sauce',
+    price: 17.5
+  },
+  {
+    name: 'salmon carpaccio',
+    description:
+      'salmon sashimi with red onion,, orange zest, bonito flakes, ponzu sauce & olive oil',
+    price: 15.5
+  },
+  {
+    name: 'tako carpacio',
+    description:
+      'octopus sashimi with wasabi garlic aioli black tobiko, serrano peppers, olive oil, rose salt, lemon juice & house nikiri soy',
+    price: 16.5
   },
   {
     name: 'yellowtail crudo (6ps)',
@@ -229,18 +243,6 @@ export const dinnerColdAppetizers = [
     description:
       'seared salmon sashimi with yuzu soy, dill weed, garlic salt & micro cilantro',
     price: 15.5
-  },
-  {
-    name: 'salmon carpaccio',
-    description:
-      'salmon sashimi with red onion,, orange zest, bonito flakes, ponzu sauce & olive oil',
-    price: 15.5
-  },
-  {
-    name: 'tako carpacio',
-    description:
-      'octopus sashimi with wasabi garlic aioli black tobiko, serrano peppers, olive oil, rose salt, lemon juice & house nikiri soy',
-    price: 16.5
   }
 ];
 

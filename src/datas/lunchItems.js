@@ -157,7 +157,7 @@ export const lunchColdAppetizers = [
   {
     name: 'yellowtail tartar',
     description:
-      'diced tuna green onions, cilantro & jalapeno mixed in ponzu sauce topped with wasabi tobiko, quail egg & kaiware served in grape seed oil sauce',
+      'diced yellowtail green onions, cilantro & jalapeno mixed in ponzu sauce topped with wasabi tobiko, quail egg & kaiware served in grape seed oil sauce',
     price: 17.5
   },
   {
