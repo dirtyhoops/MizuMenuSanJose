@@ -89,7 +89,6 @@ export const dinnerHotAppetizers = [
       'chopped spicy scallop, dungeness crab & tobiko seasoned with spicy aoili placed over rice & wrapped with salmon slices. *served flambe',
     price: 16.5
   },
-
   {
     name: 'hamachi kama',
     description: 'grilled yellowtail collar served with ponzu sauce',
@@ -657,19 +656,19 @@ export const dinnerEntrees = [
     name: 'chicken teriyaki',
     description:
       'charbroiled chicken & drizzled with teriyaki sauce served with rice, salad & miso soup',
-    price: 18
+    price: 20
   },
   {
     name: 'beef teriyaki',
     description:
       'charbroiled beef & drizzled with teriyaki sauce served with rice, salad & miso soup',
-    price: 24
+    price: 26
   },
   {
     name: 'salmon teriyaki',
     description:
       'charbroiled salmon & drizzled with teriyaki sauce served with rice, salad & miso soup',
-    price: 24
+    price: 26
   },
   {
     name: 'galbi(9pcs)',

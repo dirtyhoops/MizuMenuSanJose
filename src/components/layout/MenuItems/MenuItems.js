@@ -1,7 +1,24 @@
 import React from 'react';
+import crispyRice from '../../../img/../img/crispyrice.jpg';
+import takoyaki from '../../../img/takoyaki.jpg';
+import calamari from '../../../img/calamari.jpg';
+import tempura from '../../../img/tempura.jpg';
+import chickenbulgogi from '../../../img/chickenbulgogi.jpg';
+import spicyporkbulgogi from '../../../img/spicyporkbulgogi.jpg';
+import galbi from '../../../img/galbi.jpg';
+import porkdonburi from '../../../img/porkdonburi.jpg';
+import takocarpacio from '../../../img/takocarpacio.jpg';
 
-const MenuItems = (props) => {
-  const { bground, items, header, images, wrapper_id, bigpicture } = props;
+const MenuItems = props => {
+  const {
+    bground,
+    items,
+    header,
+    images,
+    wrapper_id,
+    bigpicture,
+    handleShowDialog
+  } = props;
   return (
     <div className={`dinner-box ${bground}`} id={wrapper_id}>
       <div className='dinner-box-header'>
@@ -11,7 +28,11 @@ const MenuItems = (props) => {
         <div className='dinner-box-container__images'>
           {images.map((image, index) => (
             <div key={index} className='dinner-box-container__images__box'>
-              <img src={image} alt='yeeeeeeeee' />
+              <img
+                src={image}
+                alt='nada'
+                onClick={() => handleShowDialog(image)}
+              />
             </div>
           ))}
         </div>

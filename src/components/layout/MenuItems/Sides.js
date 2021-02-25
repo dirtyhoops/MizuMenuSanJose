@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Sides = (props) => {
-  const { bground, items, images } = props;
+const Sides = props => {
+  const { bground, items, images, handleShowDialog } = props;
   return (
     <div className={`dinner-box ${bground}`} id='sides'>
       <div className='dinner-box-header'>
@@ -11,7 +11,11 @@ const Sides = (props) => {
         <div className='dinner-box-container__images'>
           {images.map((image, index) => (
             <div key={index} className='dinner-box-container__images__box'>
-              <img src={image} alt='yeeeeeeeee' />
+              <img
+                src={image}
+                alt='nada'
+                onClick={() => handleShowDialog(image)}
+              />
             </div>
           ))}
         </div>

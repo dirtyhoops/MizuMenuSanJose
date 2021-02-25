@@ -9,7 +9,8 @@ const DinnerMenuItem = props => {
     wrapper_id,
     bigpicture,
     dinnerUdon,
-    dinnerDonburi
+    dinnerDonburi,
+    handleShowDialog
   } = props;
   return (
     <div className={`dinner-box ${bground}`} id={wrapper_id}>
@@ -20,7 +21,11 @@ const DinnerMenuItem = props => {
         <div className='dinner-box-container__images'>
           {images.map((image, index) => (
             <div key={index} className='dinner-box-container__images__box'>
-              <img src={image} alt='yeeeeeeeee' />
+              <img
+                src={image}
+                alt='nada'
+                onClick={() => handleShowDialog(image)}
+              />
             </div>
           ))}
         </div>
