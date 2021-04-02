@@ -10,7 +10,7 @@ import DinnerMenuItem from '../../layout/MenuItems/DinnerMenuItem';
 import {
   // lunchHotAppetizers,
   // lunchColdAppetizers,
-  lunchEntrees,
+  // lunchEntrees,
   lunchSushiSashimi,
   // lunchSides,
   bento,
@@ -25,7 +25,7 @@ import {
   dinnerSides,
   // dinnerSushiSashimi,
   dinnerUdon,
-  dinnerDonburi,
+  // dinnerDonburi,
   dinnerSalad,
   lunchDonburi
 } from '../../../datas/dinnerItems';
