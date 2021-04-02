@@ -10,7 +10,7 @@ import DinnerMenuItem from '../../layout/MenuItems/DinnerMenuItem';
 import {
   // lunchHotAppetizers,
   // lunchColdAppetizers,
-  // lunchEntrees,
+  lunchEntrees,
   lunchSushiSashimi,
   // lunchSides,
   bento,
@@ -26,7 +26,8 @@ import {
   // dinnerSushiSashimi,
   dinnerUdon,
   dinnerDonburi,
-  dinnerSalad
+  dinnerSalad,
+  lunchDonburi
 } from '../../../datas/dinnerItems';
 
 import {
@@ -128,7 +129,7 @@ const LunchMenu = () => {
           wrapper_id={'entrees'}
           items={dinnerEntrees}
           dinnerUdon={dinnerUdon}
-          dinnerDonburi={dinnerDonburi}
+          dinnerDonburi={lunchDonburi}
           images={entreesImages}
           handleShowDialog={handleShowDialog}
         />

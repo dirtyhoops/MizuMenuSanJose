@@ -774,6 +774,24 @@ export const dinnerDonburi = [
   }
 ];
 
+export const lunchDonburi = [
+  {
+    name: 'pork donburi',
+    description: 'pork cutlet & egg',
+    price: 15
+  },
+  {
+    name: 'chicken donburi',
+    description: 'broiled chicken & egg',
+    price: 15
+  },
+  {
+    name: 'eel donburi',
+    description: 'grilled fresh water eel',
+    price: 18
+  }
+];
+
 export const makiRolls = [
   {
     name: 'tuna tekka',
